@@ -27,11 +27,11 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/DEMO BUILD 02 Layer Fixed.loader.js";
+      var loaderUrl = buildUrl + "/DEMO BUILD 03.loader.js";
       var config = {
-        dataUrl: buildUrl + "/DEMO BUILD 02 Layer Fixed.data",
-        frameworkUrl: buildUrl + "/DEMO BUILD 02 Layer Fixed.framework.js",
-        codeUrl: buildUrl + "/DEMO BUILD 02 Layer Fixed.wasm",
+        dataUrl: buildUrl + "/DEMO BUILD 03.data",
+        frameworkUrl: buildUrl + "/DEMO BUILD 03.framework.js",
+        codeUrl: buildUrl + "/DEMO BUILD 03.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "LowReZJam",
@@ -65,7 +65,7 @@
         canvas.style.width = "960px";
         canvas.style.height = "960px";
       }
-	  config.devicePixelRatio = 1;
+      canvas.style.background = "url('" + buildUrl + "/DEMO BUILD 03.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
